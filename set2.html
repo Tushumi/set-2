@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="set2.css">
+    <title>Set2</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;" class="reminder">Aralin mo yung code, goodluck sa exam hahaha</h1>
+
+    <main>
+      <!-- grade evaluator container -->
+      <div class="grade-evaluator-container">
+        <h1 class="heading">Student Grade Evaluator</h1>
+        <p class="student-name">Student Name: <span class="name-value">Ronnie Jay Otida</span></p>
+        <hr class="line">
+        <h3>List of Subjects</h3>
+        
+        <table class="subjects-grading">
+          <thead>
+            <tr>
+              <th>Subject Title</th>
+              <th>Grade</th>
+              <th>Remarks</th>
+            </tr>         
+          </thead>
+          <tbody>
+            <tr class="subject">
+              <td class="subject-title">Math</td>
+              <td class="subject-grade"><input type="number" placeholder="enter your Grade"></td>
+              <td class="subject-remarks"></td>
+            </tr>
+            <tr class="subject">
+              <td class="subject-title">Science</td>
+              <td class="subject-grade"><input type="number" placeholder="enter your Grade"></td>
+              <td class="subject-remarks"></td>
+            </tr>
+            <tr class="subject">
+              <td class="subject-title">English</td>
+              <td class="subject-grade"><input type="number" placeholder="enter your Grade"></td>
+              <td class="subject-remarks"></td>
+            </tr>
+            <tr class="subject">
+              <td class="subject-title">Filipino</td>
+              <td class="subject-grade"><input type="number" placeholder="enter your Grade"></td>
+              <td class="subject-remarks"></td>
+            </tr>
+            <tr class="subject">
+              <td class="subject-title">PE</td>
+              <td class="subject-grade"><input type="number" placeholder="enter your Grade"></td>
+              <td class="subject-remarks"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="student-rank">Student Rank: <span class="rank-value"></span></h2>
+
+        <div class="buttons-container">
+          <button id="calculate-btn">Calculate</button>
+          <button id="reset-btn">Reset</button>
+        </div>
+      </div>
+    </main>
+    <script src="set2.js"></script>
+  </body>
+</html>
